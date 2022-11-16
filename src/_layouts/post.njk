@@ -8,7 +8,7 @@ layout: base
 
     {% set definedDate = date %} {% include "partials/date.njk" %}
 
-    {{ content | safe }}
+    {{ content | safe }} {{ route }}
   </div>
 </article>
 
